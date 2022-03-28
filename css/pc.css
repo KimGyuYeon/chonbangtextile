@@ -23,20 +23,24 @@ body {
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
 }
 
-#gnb {
+#mobile-gnb {
+    display: none;
+}
+
+#pc-gnb {
     text-align: center;
 }
 
-#gnb ul{
+#pc-gnb ul{
     display: flex;
 }
 
-#gnb > ul > li {
+#pc-gnb > ul > li {
     width: 147px;
     position: relative;
 }
 
-#gnb ul li:first-child {
+#pc-gnb ul li:first-child {
     margin-left: 0;
 }
 
@@ -55,12 +59,12 @@ body {
     display: none;
 }
 
-#gnb .depth2 {
+#pc-gnb .depth2 {
     display: none;
     z-index: 999;
 }
 
-#gnb .depth2.on {
+#pc-gnb .depth2.on {
     width: 147px;
     height: 299px;    
     top: 49px;
@@ -71,12 +75,12 @@ body {
     border-top: 5px solid #fff;
 }
 
-#gnb .depth2 li {
+#pc-gnb .depth2 li {
     margin-top: 30px;
 }
 
 
-#gnb > ul > li:hover .depth2{
+#pc-gnb > ul > li:hover .depth2{
     background: #eee;
     border-top: 5px solid var(--main-color);
 }
@@ -913,11 +917,158 @@ footer .footer-info .copy {
     font-weight: 500;
 }
 
+/* FAQ-page */
+
+#FAQ-page {
+    margin: 0 auto;
+}
+
+#FAQ-page #text-title {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 74px;
+}
+
+#FAQ-page #text-title h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.FAQ-call {
+    width: 1250px;
+    height: 90px;
+    background:rgba(53, 129, 202, 0.7);
+    color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FAQ-call h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.FAQ-call h1 a {
+    color: #fff;
+}
+
+.FAQ-call p {
+    font-size: 18px;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.FAQ-search {
+    width: 1250px;
+    height: 90px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.FAQ-search form {
+    margin-left: 20px;
+}
+
+.FAQ-search form > input {
+    width: 650px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.FAQ-search form > button {
+    width: 90px;
+    height: 50px;
+    background: #F9941E;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.FAQ-text-box {
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 4px solid var(--main-color);
+    margin-bottom: 40px;
+}
+
+.FAQ-text-box ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.FAQ-text-box ul li > .col-text {
+    margin-left: 50px;
+}
+
+.FAQ-text-box ul li > .col-icon2 {
+    position: absolute;
+    right: 10px;
+}
+
+.FAQ-text-box img {
+    margin-right: 20px;
+}
+
+.page {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+#FAQ-page .page {
+    /* background: #ccc; */
+    text-align: center;
+    font-size: 22px;
+    margin: 0 auto;
+    padding-bottom: 300px;
+}
+
 /* map */
 
 #map {
+    margin: 0 auto;
+}
+
+#map #text-title {
     width: 1440px;
     margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 74px;
+}
+
+#map #text-title h2 {
+    font-size: 36px;
+    font-weight: 500;
 }
 
 .address {

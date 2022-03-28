@@ -28,18 +28,18 @@
     <script src="./js/main.js"></script>
 
     <!-- 사이트소개글 -->
-    <meta name="description" content="(전방텍스타일홈페이지소개글)">
+    <meta name="description" content="최고의 품질 주식회사 전방텍스타일 홈페이지입니다">
 
     <!-- 검색 키워드 등록 -->
-    <meta name="keywords" content="(키워드)">
+    <meta name="keywords" content="반응형홈페이지, 웹퍼블리셔, 퍼블리싱포트폴리오, html, css, jquery, 전방텍스타일, 의류, 웹디자인">
 
     <!-- 저자(작성자) -->
     <meta name="author" content="(이름)">
 
     <!-- SEO, SNS 최적화(페이스북, 카카오톡 등) -->
-    <meta property="og:image" content="./(메인이미지)">
+    <meta property="og:image" content="./title.jpg">
     <meta property="og:title" content="전방텍스타일 홈페이지">
-    <meta property="og:description" content="(전방텍스타일홈페이지소개글)">
+    <meta property="og:description" content="최고의 품질 주식회사 전방텍스타일 홈페이지입니다">
 
 
 </head>
@@ -48,6 +48,13 @@
     <!--해더-->
     <div class="header-component">
         <script src="./components/header.js"></script>
+    </div>
+    <!--mobile-depth2-->
+    <div id="mobile-depth2" class="mobile-only">
+        <ul>
+            <li><a href="./news.html" style="color: var(--main-color);">News</a></li>
+            <li><a href="./FAQ.html">FAQ</a></li>
+        </ul>
     </div>
     <div id="text-title">
         <h2>News</h2>
@@ -58,39 +65,39 @@
                 <tr>
                     <th>번호</th>
                     <th>제목</th>
-                    <th>조회수</th>
+                    <th class="pc-only">조회수</th>
                     <th>작성일</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>5</td>
-                    <td>어패럴뉴스 기사 - 홈쇼핑 이너웨어 3인방 고성장</td>
-                    <td>10606</td>
+                    <td>어패럴뉴스 기사 - 홈쇼핑 이너웨어<span class="pc-only"> 3인방 고성장</span></td>
+                    <td class="pc-only">10606</td>
                     <td>2015-04-29</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>기능성 스포츠 이너웨어 시장 확대일로 란제리·내복 양분된 시장에 새 영역 구축</td>
-                    <td>1817</td>
+                    <td>기능성 스포츠 이너웨어 시장 확대<span class="pc-only">일로 란제리·내복 양분된 시장에 새 영역 구축</span></td>
+                    <td class="pc-only">1817</td>
                     <td>2014-10-17</td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>일본군제 2015S/S 개최 일정</td>
-                    <td>1832</td>
+                    <td class="pc-only">1832</td>
                     <td>2014-10-13</td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>어패럴뉴스 기사 - 전방군제, 공격적 비즈니스로 전환</td>
-                    <td>1864</td>
+                    <td>어패럴뉴스 기사 - 전방군제, 공격적 비즈니스<span class="pc-only">로 전환</span></td>
+                    <td class="pc-only">1864</td>
                     <td>2014-08-12</td>
                 </tr>
                 <tr>
                     <td>1</td>
                     <td>홈페이지 OPEN</td>
-                    <td>1400</td>
+                    <td class="pc-only">1400</td>
                     <td>2014-07-29</td>
                 </tr>
             </tbody>
@@ -108,45 +115,6 @@
     <div class="footer-component">
         <script src="./components/footer.js"></script>
     </div>
-
-    <!-- 사이트맵 -->
-    <div class="sitemap-modal pc-only">
-        <ul>
-            <li><a href="./company-info.html">회사소개</a>
-                <ul>
-                    <li><a href="./sub1-1.html">회사소개</a></li>
-                    <li><a href="#">연혁</a></li>
-                    <li><a href="#">CI</a></li>
-                    <li><a href="#">인재채용</a></li>
-                </ul>
-            </li>
-            <div class="line-var"></div>
-            <li><a href="#">제품소개</a>
-                <ul>
-                    <li><a href="#">Pro-specs</a></li>
-                    <li><a href="#">Lancetti</a></li>
-                    <li><a href="#">OEM</a></li>
-                </ul>
-            </li>
-            <div class="line-var"></div>
-            <li><a href="#">고객센터</a>
-                <ul>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </li>
-            <div class="line-var"></div>
-            <li><a href="#">오시는길</a>
-                <ul>
-                    <li><a href="#">본사 및 물류센터</a></li>
-                </ul>
-            </li>
-        </ul>
-        <button id="sitemap-modal-close">
-            <img src="./images/close-btn.svg" alt="사이트맵 닫기">
-        </button>
-    </div> <!-- site map modal -->
 </body>
-<script src="./js/swiper.js"></script>
 
 </html>
