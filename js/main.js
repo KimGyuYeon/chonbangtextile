@@ -18,15 +18,17 @@ $(function(){
    
    //toggle-menu
    $('.toggle-menu').on('click', function(){
-        $('.box1').show
+           $('.box2').show();
            $('#mobile-gnb').show().animate({
                right:0
            });  
        });
-    $('.toggle-close-btn').on('click', function(){
-        $('#mobile-gnb').animate({
-            right: '-' + 65 + 'vw'},function(){
-        $('#mobile-gnb').hide(); 
+       $('.toggle-close-btn').on('click', function(){
+        $('.box2').hide();
+           $('#mobile-gnb').animate({
+               right: '-' + 65 + 'vw'
+                   },function(){
+   $('#mobile-gnb').hide(); 
    }); 
        });
 
@@ -56,5 +58,9 @@ $(function(){
 });
 
 $(window).resize(function(){
-    location.reload();
+    console.log(innerWidth);
+    if(innerWidth >= 768) {
+        $('.box2').hide();
+        $('#mobile-gnb').hide();
+    }
 })
