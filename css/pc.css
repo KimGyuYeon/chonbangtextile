@@ -180,8 +180,17 @@ video {
     margin-top: 100px;
 }
 
-#main-visual > h2 {
-    padding-bottom: 20px;
+#main-visual .swiper-title {
+    width: 1440px;
+    height: 80px;
+    background: var(--sub-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-visual h2 {
+    color: #fff;
 }
 
 #main-visual .title {
@@ -427,7 +436,7 @@ video {
 }
 
 .sitemap-modal > ul > li > a {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 500;
     color: #fff;
 }
@@ -438,7 +447,7 @@ video {
 }
 
 .sitemap-modal ul:nth-child(2) li a {
-    font-size: 35px;
+    font-size: 26px;
     color: #fff;
     font-weight: 300;
 }
@@ -547,6 +556,35 @@ select::-ms-expand {
     display: none;
 }
 
+/* breadcrumbs */
+.breadcrumbs {
+    width: 1440px;
+    height: 350px;
+    margin: 0 auto;
+    background: rgba(255, 195, 124, 0.50);
+}
+
+.breadcrumbs-box {
+    width: 1440px;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.breadcrumbs-box {
+    font-size: 10px;   
+    padding-right: 20px;
+}
+
+.breadcrumbs-box span {
+    margin: 0 5px;
+}
+
+.breadcrumbs-box strong {
+    font-size: 11px;
+}
+
 
 /*회사소개*/
 
@@ -554,6 +592,7 @@ select::-ms-expand {
     width: 1440px;
     margin: 0 auto;
 } */
+
 
 #text-title {
     margin-top: 150px;
@@ -575,6 +614,15 @@ select::-ms-expand {
     width: 1083px;
     margin: 0 auto;
     position: relative;
+    z-index: 1;
+}
+
+#company .company-info .company-info-textbox {
+    width: 1440px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 150px;
+    background: rgba(255, 195, 124, 0.09);
 }
 
 #company .company-info .text-info h3 {
@@ -593,7 +641,6 @@ select::-ms-expand {
     margin-right: 210px;
     text-align: right;
     font-weight: 400;
-    margin-bottom: 150px;
 }
 
 #company .company-info .text-info p {
@@ -1126,6 +1173,11 @@ select::-ms-expand {
     right: 10px;
 }
 
+.FAQ-text-box ul li > .col-icon2 img {
+    width: 16px;
+    height: 16px;
+}
+
 .FAQ-text-box img {
     margin-right: 20px;
 }
@@ -1145,6 +1197,11 @@ select::-ms-expand {
     font-size: 22px;
     margin: 0 auto;
     padding-bottom: 300px;
+}
+
+#FAQ-page .page a:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* map */

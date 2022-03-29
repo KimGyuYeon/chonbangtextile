@@ -119,14 +119,23 @@ video {
   }
 
 #main-visual {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
-#main-visual > h2 {
-    padding-bottom: 10px;
+#main-visual .swiper-title {
+    width: 100%;
+    height: 40px;
+    background: var(--sub-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-visual h2 {
     font-size: 18px;
     font-weight: 500;
     text-align: center;
+    color: #fff;
 }
 
 #main-visual .title {
@@ -454,6 +463,12 @@ video {
     text-align: right;
 }
 
+#company .company-img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
 /*연혁*/
 #company .history {
     width: 347px;
@@ -774,14 +789,15 @@ video {
 }
 
 /* 고객센터 - news */
+
 #news-page > #mobile-depth2 ul { 
     width: 100%;
     column-count: 2;
 }
+
 #news-page .news-box {
     width: 100%;
-    height: 227px;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     justify-content: center;
 }
@@ -789,9 +805,9 @@ video {
 #news-page .page {
     /* background: #ccc; */
     text-align: center;
-    font-size: 12px;
-    margin-bottom: 100px;
+    font-size: 14px;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 #news-page .page img {
@@ -815,6 +831,10 @@ video {
     padding-right: 8px;
 }
 
+#news-page thead th:nth-child(4) {
+    padding: 10px;
+}
+
 #news-page table {
     border-top: 4px solid var(--main-color);
     border-collapse: collapse;
@@ -823,10 +843,7 @@ video {
 #news-page tbody td {
     text-align: center;
     border-bottom: 1px solid #ccc;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
 }
 
 #news-page tbody td:nth-child(2) {
@@ -835,6 +852,9 @@ video {
 
 #news-page tbody td:nth-child(4) {
     color: #a8a8a8;
+    font-size: 10px;
+    text-align: justify;
+    padding: 0;
 }
 
 /* FAQ-page */
@@ -947,6 +967,12 @@ video {
     right: 10px;
 }
 
+.FAQ-text-box ul li > .col-icon2 img {
+    width: 14px;
+    height: 14px;
+}
+
+
 .FAQ-text-box img {
     margin-right: 20px;
 }
@@ -962,11 +988,21 @@ video {
 
 #FAQ-page .page {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 100px;
     margin-top: 50px;
 }
 
+#FAQ-page .page img {
+    width: 12px;
+    height: 12px;
+}
+
+
+#FAQ-page .page a:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /* map */
 
 #map {

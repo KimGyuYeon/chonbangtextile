@@ -15,12 +15,9 @@
     - 메인페이지 및 서브페이지(pc, mobile)
 
 3. 구현
-4. 
-    -메인페이지-
-        - PC, Mobile  
-        - 
+    - 메인페이지
+        - PC, Mobile
         - site map - jQuery
-        - 
         - mobile toggle menu - jQuery
         - Slider - Javascript plug-in
         - tab button - jQuery
@@ -31,7 +28,7 @@
         - 서브페이지
         - 지도 google map 추가
 
-    -지속적으로 수정, 보완 업데이트(03-28)-        
+    - 지속적으로 수정, 보완 업데이트(03-28)       
         - header에 쇼핑몰바로가기 추가
         - 슬라이더 이동속도 조정
         - 사이트맵 close버튼 위치조정
@@ -44,6 +41,19 @@
         - mobile toggle-menu 클릭시 메뉴 제외하고 다른 화면 투명한 검정색으로 되게 변경.
         - site-map, mobile toggle-menu에 쇼핑몰 바로가기 추가
         - 푸터영역에 패밀리링크 여백 조정
+
+    - 지속적으로 수정, 보완 업데이트(03-29)
+        - 회사소개 소개글 백그라운드컬러 추가
+        - 모바일 회사소개 이미지 추가
+        - 사이트맵 폰트사이즈 조정
+        - breadcrumbs 추가
+        - 메인페이지 메인비쥬얼타이틀 백그라운드 추가
+        - news 모바일 테이블 크기 조정
+        - FAQ 하단 화살표와 글씨 크기 조정
+        - FAQ PC하단 화살표 사이 여백 조정
+
+
+    
 
 4. 배포 (깃허브)
     - 지속적으로 수정, 보완 업데이트
