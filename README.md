@@ -16,7 +16,6 @@
 
 3. 구현
     -메인페이지-
-
         PC, Mobile
         site map - jQuery
         mobile toggle menu - jQuery
@@ -29,7 +28,7 @@
         서브페이지
         지도 google map 추가
 
-        지속적으로 수정, 보완 업데이트(03-28)
+    -지속적으로 수정, 보완 업데이트(03-28)        
         header에 쇼핑몰바로가기 추가
         슬라이더 이동속도 조정
         사이트맵 close버튼 위치조정
