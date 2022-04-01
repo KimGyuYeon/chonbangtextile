@@ -14,8 +14,8 @@
     - 앱 아이콘, 파비콘 제작
     - 메인페이지 및 서브페이지(pc, mobile)
 
-3. 구현(03-18)
-    - 메인페이지
+3. 구현
+    - 메인페이지(03-18)
         - PC, Mobile
         - site map - jQuery
         - mobile toggle menu - jQuery
